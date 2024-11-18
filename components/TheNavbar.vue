@@ -7,15 +7,21 @@
             <ul class="navbar-nav mr-auto">
 
             <li class="nav-item active">
-                <nuxt-link no-prefetch exact active-class="active" class="nav-link" to="/">Home</nuxt-link> 
+                <nuxt-link exact no-prefetch  active-class="active" class="nav-link" to="/">
+                    Home
+                </nuxt-link> 
             </li>
 
             <li class="nav-item">
-                <nuxt-link active-class="active" class="nav-link" to="/about">About</nuxt-link>
+                <nuxt-link active-class="active" class="nav-link" to="/about">
+                    About
+                </nuxt-link>
             </li> 
 
             <li class="nav-item">
-                <nuxt-link active-class="active" class="nav-link" to="/users ">Users</nuxt-link>
+                <nuxt-link active-class="active" class="nav-link" to="/users">
+                    Users
+                </nuxt-link>
             </li> 
 
             </ul>
